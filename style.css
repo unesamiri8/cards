@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;700&display=swap');
+
+body{
+    background-color: #131313;
+    color:white;
+    font-family: 'Outfit', 'sans-serif';
+}
+.back{grid-area: back;}
+.header{
+    grid-area: header;
+    font-size: 80px;
+}
+.cItems{
+    background-color: #191E30;
+}
+.cards{grid-area: cards;}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template: 
+    ". . ." 10%
+    ". back . "10%
+    ". header ."30%
+    ". cards ."40%
+    ". . ."10%
+    /10% 80% 10%
+    ;
+}
+i{
+    font-size: 50px;
+}
+a{color:white}
+
+.cItems{
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.cItems h5{color:#A7A7A7}
+.tags{
+    border:1px solid #4C598C;
+    border-radius: 99px;
+    padding: 5px 15px;
+}
